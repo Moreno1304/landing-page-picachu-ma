@@ -1,0 +1,32 @@
+/* Reset*/
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --primary-color: #F5CF00;
+    --seondary-color:  #8E4106;
+    --speace-default: 70px;
+}
+header{
+    background-color: blue;
+    height: 20%;
+}
+main{
+    background-color: red;
+    flex-grow: 1;
+}
+footer{
+    background-color: rebeccapurple;
+
+}
+body{
+    padding-top: var(--space-defalt);
+    padding-bottom: 24px;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: var(--primary-color)
+}
