@@ -63,11 +63,20 @@ main{
     font-size: 48px;
     color: #fff;
     text-decoration: none;
-    
+
+}
+.picachu-imagem{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+
 }
 
 footer{
-    background-color: rebeccapurple;
+    text-align: center;
+    color: black;
 
 }
 body{
