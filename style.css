@@ -11,22 +11,58 @@
     --speace-default: 70px;
 }
 header{
-    background-color: blue;
-    height: 20%;
+    
+    height: 48px;
 }
 main{
-    background-color: red;
+   
     flex-grow: 1;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    margin-left: var(--speace-default);
+    margin-right: var(--speace-default);
+    background-color: aqua;
+    margin: 0px var(--speace-default);
 }
+.title{
+    grid-column: 1/-1;
+    place-self: center;
+}
+.title_text{
+    font-size: 20vw;
+    color: white;
+}
+.title.tranparent{
+    font-size: 27vw;
+    position: absolute;
+    
+
+}
+.description{
+    grid-column: 1/7;
+}
+
 footer{
     background-color: rebeccapurple;
 
 }
 body{
+    font-family: 'Right', cursive;
     padding-top: var(--space-defalt);
     padding-bottom: 24px;
     display: flex;
     flex-direction: column;
     height: 100vh;
     background-color: var(--primary-color)
+    
+}
+.logo{
+    margin-left: var(--speace-default);
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    text-decoration: none;
+    color: var(--seondary-color);
+    font-size: 32px;
+    font-family: 'Righteous', cursive;
 }
