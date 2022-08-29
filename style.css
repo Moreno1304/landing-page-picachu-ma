@@ -36,7 +36,7 @@ main{
     top: -50%;
     left: 50%;
     transform: translateX(-50%);
-    color: #fff5;
+    color: #fff4;
     z-index: -1;
 }
 .description{
