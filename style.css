@@ -80,7 +80,7 @@ footer{
 
 }
 body{
-    font-family: 'Right', cursive;
+    font-family: 'Righteous', cursive;
     padding-top: var(--space-defalt);
     padding-bottom: 24px;
     display: flex;
